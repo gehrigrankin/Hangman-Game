@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <h2>Hangman</h1>
+                </div>
+
+                <div class="row text-center">
+                    <p>Press any key to get started!</p>
+                </div>
+                    
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+                
+            <div class="col-md-6">
+                <!--HANGMAN PICTURE HERE -->
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="text-center">
+                            <div class="col-md-12">
+                                <img src="http://via.placeholder.com/150x150" alt="placeholder">
+                            </div>  
+                            
+                            <div class="col-xs-12">
+                                <h1><span id="hidden-answer"></span></h1>
+                            </div>    
+                        </div>    
+                    </div>
+                    
+                      
+                </div>
+
+                
+            </div> 
+            
+            <div class="col-md-6">
+                <!-- Letter bank HERE-->
+
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <p id="letter-bank">Letters you've guessed: </p>
+                            <br>
+                        
+                            <span id="user-text"></span>
+                        
+                            <br>
+                            <br>
+
+                            <p id="letter-bank">Correct words: </p>
+                            <br>
+                        
+                            <span id="correct-words"></span>
+                        
+                            <br>
+                            <br>    
+                        </div>
+
+                        <div class="col-md-3">
+                            <p>wins: <span id="user-wins">0</span></p>
+                            <p>losses: <span id="user-losses"></span></p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+  
+        </div>
+        
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
