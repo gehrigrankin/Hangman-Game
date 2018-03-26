@@ -10,7 +10,9 @@ userLosses = 0;
 var userWord = [];
 var userLetters = [];
 userGuessesLeft = 5;
-comWordBank = ['hello', 'goodbye', 'rocks', 'cheese'];
+comWordBank = ['hello', 'goodbye', 'rocks', 'cheese', 'adult', 'air', 'airport', 'album', 'baby', 'backpack', 'balloon','banana', 'bank', 'car', 'cave', 'california', 'dress', 'diamond', 'drill', 'eraser', 'elephant', 'eyes', 'fan', 'family', 'feather', 'gate', 'garden', 'girl', 'holiday', 'hammer', 'igloo', 'insect', 'jazz', 'junk', 'kitchen', 'knife', 'lamp',' llama', 'magnet', 'monster', 'nasty', 'ostrich', 'pants', 'pebble', 'roof', 'radar', 'record', 'space', 'star', 'spoon'];
+
+
 var comRandWord = comWordBank[Math.floor(Math.random() * comWordBank.length)];
 hiddenAnswer = [];
 
